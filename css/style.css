@@ -9,7 +9,7 @@
 
 body {
     overflow-x: hidden;
-    background: #fff;
+    /* background: #fff; */
     min-height: 100vh;
 }
 
@@ -33,7 +33,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#header ul {
+#header .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,20 +136,4 @@ section #text span {
     font-size: 1em;
     color: #fff;
     font-family: 'Poppins',sans-serif;
-}
-
-.footer-copyright {
-    justify-content: center;
-    background: black;
-    width: 100%;
-}
-
-.footer-copyright p {
-    opacity: 0.5;
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
