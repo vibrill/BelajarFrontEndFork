@@ -37,11 +37,12 @@
 
     }
 
-    .toggle {
+    .toggle{
         display: flex;
         width: 30px;
         height: 30px;
         cursor: pointer;
+        background: url(toggle.png);
         background-size: 30px;
         background-repeat: no-repeat;
         z-index: 1000;
@@ -62,7 +63,5 @@
     .sec h2 {
         font-size: 1.5em;
     }
-    section img#forest1 {
-        transform: translateY(00px);
-    }
+    
 }

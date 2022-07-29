@@ -137,6 +137,7 @@ section #text span {
     color: #fff;
     font-family: 'Poppins',sans-serif;
 }
-#header img {
+
+.toggle {
     display: none;
 }
