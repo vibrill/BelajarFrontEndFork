@@ -1,6 +1,7 @@
 @media (max-width: 992px){
+
     body {
-        overflow-x: hidden;
+        overflow: hidden
     }
 
     #header {
@@ -41,10 +42,10 @@
     }
 
     .toggle {
+        display: flex;
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(toggle.png);
         background-size: 30px;
         background-repeat: no-repeat;
         z-index: 1000;
