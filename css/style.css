@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +129,7 @@ section #text span {
     font-size: 3.5em;
     color: #fff;
     margin-bottom: 14px;
+    font-family: "Poppins", sans-serif;
 }
 
 .sec p {
