@@ -57,3 +57,8 @@ body {
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
