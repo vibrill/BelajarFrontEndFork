@@ -1,6 +1,6 @@
 /* font goole poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&family=Rancho&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&family=Rancho&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -78,14 +78,14 @@ section::before {
     z-index: 10;
 }
 
-section img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        pointer-events: none;
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
 }
 
 section #text {
@@ -118,11 +118,11 @@ section #text span {
     transform: translateY(100px);
     font-family: sans-serif;
 }
+
 .sec {
     position: relative;
     padding: 100px;
-    background:  #094b65;
-    
+    background: #094b65;
 }
 
 .sec h2 {
@@ -135,7 +135,7 @@ section #text span {
 .sec p {
     font-size: 1em;
     color: #fff;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .toggle {

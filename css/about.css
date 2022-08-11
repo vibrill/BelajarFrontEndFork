@@ -1,0 +1,44 @@
+body {
+    min-height: 50vh;
+}
+
+section {
+    height: 50vh;
+}
+
+.main h2 {
+    top: 20vh;
+}
+
+section::before {
+    height: 15vh;
+}
+
+.image {
+    width: 15vw;
+    object-fit: fill;
+}
+
+.sec {
+    display: grid;
+    grid-template-columns: 40vw auto;
+}
+
+.sec h3 {
+    font-size: x-large;
+    color: aqua;
+}
+
+.sec h2 {
+    color: aqua;
+}
+
+@media (max-width: 992px) {
+    .image {
+        display: none;
+    }
+    .sec {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
