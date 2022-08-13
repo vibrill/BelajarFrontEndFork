@@ -33,6 +33,24 @@ section::before {
     color: aqua;
 }
 
+@keyframes colorchange {
+    0% {
+        color: rgb(120, 0, 0);
+    }
+    50% {
+        color: rgb(0, 0, 120);
+    }
+    100% {
+        color: rgb(120, 0, 0);
+    }
+}
+
+.main h2 {
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+
 @media (max-width: 992px) {
     .image {
         display: none;
